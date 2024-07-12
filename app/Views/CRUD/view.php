@@ -1,7 +1,6 @@
 <?= $this->extend('/layout/template') ?>
 
 <?= $this->section('content') ?>
-<?= dd($mahasiswa[1]) ?>
 <main>
     <div class="title">
         <h1>Data Mahasiswa</h1>
