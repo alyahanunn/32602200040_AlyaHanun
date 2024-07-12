@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+
+.container{
+    background-color: rgb(111, 133, 172);
+    padding: 50px;
+}
+
+body nav{
+    padding: 10px;
+    background-color: black;
+}
+
+body nav ul{
+    padding: 10px;
+}
+
+body nav ul li{
+    display: inline;
+}
+
+body nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+footer{
+    background-color: black;
+    padding:50px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width: 1000px){
+    .container{
+        display: flex;
+    }
+
+    .box-name{
+    background-color: white;
+    margin-right: 20px;
+    padding: 10px;
+    width: 550px;
+    text-align: center;
+    border-radius: 10px;
+    }
+
+    .box-name .nama{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .box-detail{
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    .detail-profile{
+        margin-top: 20px;
+    }
+
+    .form-detail td{
+        padding-right: 20px;
+    }
+
+    .medsos{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        margin:0px auto;
+    }
+
+    body nav{
+        padding: 10px;
+        background-color: black;
+    }
+
+    body nav ul{
+        padding:10px;
+        text-align: center;
+    }
+
+    body nav ul li{
+        display: inline;
+    }
+
+    body nav ul li a{
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .box-name{
+        background-color: white;
+        margin-right: 20px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .box-name img{
+        width: 20%;
+    }
+
+    .box-name .nama{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .box-name .skills{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .box-detail{
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .detail-profile{
+        margin-top: 20px;
+    }
+
+    .form-detail td{
+        padding-right: 20px;
+    }
+
+    .medsos{
+        margin-top: 20px;
+    }
+}
